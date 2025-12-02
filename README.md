@@ -1,20 +1,41 @@
 # ACA-ZigbeeLED-Core
 
-### Overview
-This project establishes a foundation for working with the ESP32-C6 using ESP-IDF.  
-It begins with a single-board LED + button toggle (GPIO fundamentals) and expands to BLE-based LED synchronization between two boards.
+## Description
+This repository will contain the core Zigbee logic, shared modules, and reusable components that support multiple Zigbee LED-related projects on the ESP32-C6. It provides the foundational layers for device behavior, communication, and code reuse.
 
-### Objectives
-- Learn GPIO input/output handling and debouncing.
-- Implement FreeRTOS task loops for stable button reading.
-- Add BLE GATT communication for real-time LED sync.
+**End Goal:**  
+To create a modular set of Zigbee core utilities that can be reused across end-device, router, and coordinator implementations in future projects.
 
-### Milestones
-- **v0.1** – LED + Button toggle (standalone)
-- **v0.2** – BLE server/client sync between two boards
+---
 
-### Build & Flash
-```bash
-idf.py set-target esp32c6
-idf.py build
-idf.py -p <PORT> flash monitor
+## Tech Stack
+
+**Languages:**  
+- To be determined
+
+**Frameworks / Libraries:**  
+- ESP-IDF (planned)
+
+**Tools:**  
+- Visual Studio Code  
+- ESP-IDF  
+- GitHub
+
+**Dependencies:**  
+- ESP32-C6  
+- Zigbee framework via ESP-IDF
+
+---
+
+## Usage Overview
+This repository serves as the shared core for Zigbee LED projects. It will contain initialization logic, communication utilities, data structures, and abstractions for Zigbee functionality on ESP32 hardware.
+
+---
+
+## License
+To be decided
+
+---
+
+## Author
+David Cole
